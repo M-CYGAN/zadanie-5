@@ -1,0 +1,66 @@
+body{
+    font-family: Georgia;
+}
+
+.baner{
+    background-color: #824555;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+section{
+    display: flex;
+}
+
+.firstPanel, .secondPanel{
+    background-color: #A26475;
+    color: white;
+    width: 30%;
+    height: 300px;
+}
+
+.thirdPanel{
+background-color: #a26475;
+color: white;
+width: 40%;
+height: 300px;
+display: flex;
+justify-content: end;
+}
+
+.mainPanel{
+    background-color: #f0EAE2;
+    padding: 50px;
+}
+footer{
+    background-color: #824555;
+    color: white;
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer > a {
+    display: grid;
+    justify-content: center;
+}
+
+table,
+th,
+td {
+    padding: 7px;
+    border: 2px solid #824555;
+    border-collapse: collapse;
+}
+
+.red{
+background-color: red;
+}
+.green{
+background-color: green;
+}
+.blue{
+background-color: blue;
+}
